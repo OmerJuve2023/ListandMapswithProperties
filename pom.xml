@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.omerSolutions</groupId>
-    <artifactId>ListandMapswithProperties</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>ListandMapswithProperties</name>
-    <description>ListandMapswithProperties</description>
+    <artifactId>list-and-maps-properties</artifactId>
+    <version>1.0.0</version>
+    <name>list-and-maps-with-properties</name>
+    <description>list-and-maps-with-properties</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -21,7 +21,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -54,7 +53,10 @@
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.graalvm.buildtools</groupId>
+                <artifactId>native-maven-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
-
 </project>

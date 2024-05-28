@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: ListMapsWithProperties
+social:
+  media:
+    accounts:
+      - name: Facebook
+        url: https://www.facebook.com
+        username: facebook
+      - name: Twitter
+        url: https://www.twitter.com
+        username: twitter
+      - name: LinkedIn
+        url: https://www.linkedin.com
+        username: linkedin
+      - name: Instagram
+        url: https://www.instagram.com
+        username: instagram
+bookmark:
+  website-map:
+    dan-vega: https://www.danvega.dev
+    Baeldung: https://www.baeldung.com
+    spring-framework: https://spring.io
+    okaying: https://www.mkyong.com
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    com..omersolutions.listandmapswithproperties: debug
